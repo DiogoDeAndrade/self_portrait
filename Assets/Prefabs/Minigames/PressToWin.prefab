@@ -45,6 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950ea28da2013944bbd8be92f36e72eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: a812c2f896e622147b1cd6df2e9997f6, type: 3}
+  mindPosition: {x: 200, y: 307}
+  mindSize: {x: 107, y: 65}
+  winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
+  looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
 --- !u!1 &6495868129993095075
 GameObject:
   m_ObjectHideFlags: 0

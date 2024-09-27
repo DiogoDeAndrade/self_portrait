@@ -15,6 +15,8 @@ public class PressToWin : Minigame
 
         var textPrompt = GetComponentInChildren<TextMeshProUGUI>();
         textPrompt.text = $"Press {key} to win!";
+
+        StartPlaying();
     }
 
     // Update is called once per frame

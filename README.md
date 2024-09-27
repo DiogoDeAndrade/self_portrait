@@ -11,10 +11,15 @@ This month, the theme is "Self Portrait"
 
 ## Art
 
+- Beating heart by [Darsycho], licensed through the [CC0] license.
+- Blood Lust font by [Font Monger], free for personal use.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Sound
 
+- Ascending Harp by [ivanmilic], licensed through the [CC0] license.
+- Loose sound by [Kastenfrosch], licensed through the [CC0] license.
+- Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Code
 
@@ -32,3 +37,7 @@ This month, the theme is "Self Portrait"
 [MIT]:LICENSE
 [Craftpix]:https://craftpix.net
 [Okapi Kit]:https://github.com/VideojogosLusofona/OkapiKit
+[Darsycho]:https://opengameart.org/users/darsycho
+[ivanmilic]:https://freesound.org/people/ivanmilic/
+[Kastenfrosch]:https://freesound.org/people/Kastenfrosch/
+[Font Monger]:https://www.fontmonger.com
