@@ -27,8 +27,10 @@ public class Hearbeat : Minigame
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
+        base.Update();
+
         if (!isPlaying)
         {
             if (avgBpm == 0)
@@ -45,6 +47,11 @@ public class Hearbeat : Minigame
             heartbeats[heartbeatsIndex] = Time.time;
             heartbeatsIndex = (heartbeatsIndex + 1) % heartbeats.Length;
             totalBeats++;
+        }
+
+        if (totalBeats > 2)
+        {
+            DisablePrompt();
         }
 
         if (totalBeats > 5)
@@ -93,7 +100,7 @@ public class Hearbeat : Minigame
             timeToLoose += Time.deltaTime;
             bpmText.text = $"BPM: ---";
         }
-
+        
         if (timeToLoose > 8.0f)
         {
             // Loose

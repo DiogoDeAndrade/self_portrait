@@ -146,6 +146,9 @@ public class MinigameManager : MonoBehaviour
         currentMinigame = mg;
 
         // Calculate the scale factor based on the initial size of the RawImage and the target size
+        rawImageRectTransform.anchoredPosition = currentMinigame.mindPosition;
+        rawImageRectTransform.sizeDelta = currentMinigame.mindSize;
+
         float scaleFactor = 1280.0f / rawImageRectTransform.sizeDelta.x;
 
         transitionCR = StartCoroutine(TransitionToMinigameCR(Vector2.zero, scaleFactor));
@@ -182,9 +185,6 @@ public class MinigameManager : MonoBehaviour
 
         oldCanvasGroup.alpha = 0.0f;
         newCanvasGroup.alpha = 1.0f;
-
-        rawImageRectTransform.anchoredPosition = currentMinigame.mindPosition;
-        rawImageRectTransform.sizeDelta = currentMinigame.mindSize;
 
         // Store the original sizes and positions of the RawImage and Photo
         Vector2 originalRawImageSize = rawImageRectTransform.sizeDelta;
@@ -270,7 +270,7 @@ public class MinigameManager : MonoBehaviour
         Vector2 originalPhotoPosition = photoRectTransform.anchoredPosition;
         float duration = transitionDuration;
 
-        // Target size for the RawImage (1280x720)
+        // Target size for the RawImage
         Vector2 targetRawImageSize = originalRawImageSize * scaleFactor;
 
         // Calculate the final size for the Photo based on the scale factor

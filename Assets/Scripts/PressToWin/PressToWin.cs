@@ -13,15 +13,16 @@ public class PressToWin : Minigame
 
         key = availableKeys[Random.Range(0, availableKeys.Length)];
 
-        var textPrompt = GetComponentInChildren<TextMeshProUGUI>();
-        textPrompt.text = $"Press {key} to win!";
+        SetPrompt($"Press {key} to win!");
 
         StartPlaying();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
+        base.Update();
+
         if (!isPlaying) return;
 
         foreach (var k in availableKeys)
@@ -31,16 +32,14 @@ public class PressToWin : Minigame
                 if (k == key)
                 {
                     // Win
-                    var textPrompt = GetComponentInChildren<TextMeshProUGUI>();
-                    textPrompt.text = $"WIN!";
+                    SetPrompt($"WIN!");
 
                     Win();
                 }
                 else
                 {
                     // Loose
-                    var textPrompt = GetComponentInChildren<TextMeshProUGUI>();
-                    textPrompt.text = $"LOOSE!";
+                    SetPrompt($"LOOSE!");
 
                     Loose();
                 }
