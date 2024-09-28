@@ -1,10 +1,12 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class CarChase : Minigame
+public class Music : Minigame
 {
-    [SerializeField, Header("CarChase")] 
-    private float           startDelay = 2.0f;
+    [SerializeField, Header("Music")] private float              startDelay = 2.0f;
+    [SerializeField] private FlyingCat          cat;
+    [SerializeField] private ParticleSystem     effectPS;
 
     protected override void Start()
     {
@@ -23,14 +25,20 @@ public class CarChase : Minigame
             return;
         }
 
-        if (playTime > 0.5f)
+        if (playTime > 1.0f)
         {
             DisablePrompt();
+        }
+
+        if (cat.transform.position.y < -210.0f)
+        {
+            Loose();
         }
     }
 
     protected override void TimeExpired()
     {
         Win();
+        effectPS.Play();
     }
 }

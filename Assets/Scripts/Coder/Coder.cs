@@ -43,7 +43,7 @@ public class Coder : Minigame
         if (Input.anyKeyDown)
         {
             DisablePrompt();
-
+             
             var keyCode = GetPressedKey();
 
             if (code.maxVisibleCharacters < code.text.Length)

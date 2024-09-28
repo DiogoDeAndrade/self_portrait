@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class ScrollElement : MonoBehaviour
+public class HorizontalScrollElement : MonoBehaviour
 {
     [SerializeField] private float  speed = 200.0f;
     [SerializeField] private bool   reuse = true;
-    [SerializeField] private float  limitY = -192.0f;
+    [SerializeField] private float  limitX = -192.0f;
 
-    private CarChase carChase;
+    private Minigame minigame;
 
     void Start()
     {
-        carChase = FindFirstObjectByType<CarChase>();
+        minigame = FindFirstObjectByType<Minigame>();
     }
 
     // Update is called once per frame
@@ -18,12 +18,12 @@ public class ScrollElement : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        pos.y -= speed * carChase.timeScale * Time.deltaTime;
-        if (pos.y <= limitY)
+        pos.x -= speed * minigame.timeScale * Time.deltaTime;
+        if (pos.x <= limitX)
         {
             if (reuse)
             {
-                pos.y += 384.0f + 128.0f;
+                pos.x += 640.0f + 256.0f;
             }
             else
             {

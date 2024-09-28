@@ -11,19 +11,19 @@ public class Spawner : MonoBehaviour
     private Vector2 spawnTimer = new Vector2(1.0f, 2.0f);
     [SerializeField, MinMaxSlider(0.1f, 3.0f)]
     private Vector2 scaleRange = Vector2.one;
-    [SerializeField, MinMaxSlider(0.0f, 360.0f)]
+    [SerializeField, MinMaxSlider(-360.0f, 360.0f)]
     private Vector2 rotationRange = Vector2.zero;
     [SerializeField] 
     private GameObject[] prefabs;
 
-    private CarChase        carChase;
+    private Minigame        minigame;
     private BoxCollider2D   spawnArea;
     private float           timer;
     private List<Vector3>   spawnPos;
 
     void Start()
     {
-        carChase = FindFirstObjectByType<CarChase>();
+        minigame = FindFirstObjectByType<Minigame>();
         spawnArea = GetComponent<BoxCollider2D>();
         timer = Random.Range(spawnTimer.x, spawnTimer.y);
 
@@ -45,9 +45,9 @@ public class Spawner : MonoBehaviour
             if (!MinigameManager.isPlaying) return;
         }
 
-        if (carChase.timeScale == 0.0f) return;
+        if (minigame.timeScale == 0.0f) return;
 
-        timer -= Time.deltaTime * carChase.timeScale;
+        timer -= Time.deltaTime * minigame.timeScale;
         if (timer <= 0.0f)
         {
             timer = Random.Range(spawnTimer.x, spawnTimer.y);

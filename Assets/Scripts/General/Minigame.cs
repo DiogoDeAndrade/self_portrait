@@ -21,6 +21,8 @@ public class Minigame : MonoBehaviour
     private Image timerProgress;
     [SerializeField] 
     public TextMeshProUGUI promptText;
+    [SerializeField]
+    public float timeScale = 1.0f;
 
     protected GameState     _gameState = GameState.WaitStart;
     protected float         gameTimer;

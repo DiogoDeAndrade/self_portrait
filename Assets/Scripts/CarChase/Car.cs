@@ -46,7 +46,7 @@ public class Car : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        var scrollElement = collision.GetComponent<ScrollElement>();
+        var scrollElement = collision.GetComponent<VerticalScrollElement>();
         if (scrollElement)
         {
             SoundManager.PlaySound(carCrashSound, 1, 1);

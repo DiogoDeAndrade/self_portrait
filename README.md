@@ -16,6 +16,8 @@ This month, the theme is "Self Portrait"
 - Nexa font by [Font Fabric], free for personal use.
 - ZX SPectrum font by [myname5749], free for personal use.
 - Racing pack by [Kenney], licensed through the [CC0] license.
+- International Tennis video footage by [Modern ZX-Retro Gaming], licensed under fair use.
+- Cat sprites by [Shepardskin], licensed through the CC0 license.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Sound
@@ -24,6 +26,10 @@ This month, the theme is "Self Portrait"
 - Loose sound by [Kastenfrosch], licensed through the [CC0] license.
 - Crash sound by [squareal], licensed through the [CC0] license.
 - Key click sound by [chris112233], licensed through the [CC0] license.
+- Metal loop by [furbyguy], licensed through the [CC0] license.
+- Power chord by [mikey_eff], free for personal non-commercial use.
+- Dissoance sound by [unfa], licensed through the [CC0] license.
+- Coin jump sound by [Jerimee], licensed through the [CC0] license.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Code
@@ -51,3 +57,9 @@ This month, the theme is "Self Portrait"
 [squareal]:https://freesound.org/people/squareal/
 [chris112233]:https://freesound.org/people/chris112233/
 [myname5749]:https://www.dafont.com/pt/myname5749.d7037
+[Modern ZX-Retro Gaming]:https://www.youtube.com/@MZX-RG
+[Shepardskin]:https://opengameart.org/users/shepardskin
+[furbyguy]:https://freesound.org/people/furbyguy/
+[mikey_eff]:https://freesound.org/people/mikey_eff/
+[unfa]:https://freesound.org/people/unfa/
+[Jerimee]:https://freesound.org/people/Jerimee/

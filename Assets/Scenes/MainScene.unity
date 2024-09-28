@@ -728,7 +728,7 @@ MonoBehaviour:
   maxLives: 1
   lifeDisplay: {fileID: 1211871312}
   minigamePrefabs:
-  - {fileID: 8535944259502493860, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  - {fileID: 5920107928239029980, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
   recoveryMinigamePrefab: {fileID: 5076087896630422355, guid: ee78766ecad82e14298602301333627d, type: 3}
   gameOverImage: {fileID: -3718763337147400751, guid: 7261c14654cf4a64c852d8442e1c437c, type: 3}
   gameOverText: {fileID: 875859632}
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4701643111236274617, guid: 28d79f2a91250dc4a9ee43d2d3a8206f, type: 3}
+  m_Sprite: {fileID: -179073399664564188, guid: f2c41c80b22134740b92b2ec87f744ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1341,8 +1341,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 261}
-  m_SizeDelta: {x: 50, y: 28.125}
+  m_AnchoredPosition: {x: 21, y: 208}
+  m_SizeDelta: {x: 150, y: 84.375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1247106715
 CanvasGroup:
