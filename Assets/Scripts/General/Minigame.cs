@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using OkapiKit;
 using NaughtyAttributes;
 using TMPro;
 
@@ -29,6 +28,7 @@ public class Minigame : MonoBehaviour
     protected CanvasGroup   timerCanvasGroup;
     protected CanvasGroup   promptCanvasGroup;
     protected float         playTime;
+    protected Camera        minigameCamera;
 
     public bool isPlaying => (_gameState == GameState.Playing);
     public GameState gameState => _gameState;
@@ -39,16 +39,29 @@ public class Minigame : MonoBehaviour
     protected virtual void Start()
     {
         var canvas = GetComponentsInChildren<Canvas>();
+        minigameCamera = MinigameManager.minigameCamera;
+        if (minigameCamera == null)
+        {
+            // Find it by name (just used for testing)
+            minigameCamera = GameObject.Find("MinigameCamera").GetComponent<Camera>();
+        }
         foreach (var c in canvas)
         {
             if ((c.renderMode == RenderMode.ScreenSpaceCamera) || ((c.renderMode == RenderMode.ScreenSpaceOverlay) && (c.worldCamera == null)))
             {
-                c.worldCamera = MinigameManager.minigameCamera;
+                c.worldCamera = minigameCamera;
             }
         }
-        if (MinigameManager.minigameCamera)
+        if (minigameCamera)
         {
-            MinigameManager.minigameCamera.backgroundColor = backgroundColor;
+            minigameCamera.backgroundColor = backgroundColor;
+
+            var cameraFollow = minigameCamera.GetComponent<CameraFollow>();
+            if (cameraFollow)
+            {
+                cameraFollow.targetObject = null;                
+            }
+            minigameCamera.transform.position = new Vector3(0, 0, minigameCamera.transform.position.z);
         }
 
         if (hasTimeLimit)

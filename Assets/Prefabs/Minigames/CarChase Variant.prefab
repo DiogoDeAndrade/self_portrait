@@ -1065,8 +1065,8 @@ MonoBehaviour:
   timeLimit: 20
   timerProgress: {fileID: 73162643305306053}
   promptText: {fileID: 5650655076474092333}
-  startDelay: 4
   timeScale: 2
+  startDelay: 4
 --- !u!1001 &3408613699835507989
 PrefabInstance:
   m_ObjectHideFlags: 0

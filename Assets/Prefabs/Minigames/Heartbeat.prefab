@@ -5814,6 +5814,7 @@ MonoBehaviour:
   timeLimit: 8
   timerProgress: {fileID: 3055956449759398555}
   promptText: {fileID: 7277876238256793203}
+  timeScale: 1
   startDelay: 4
   validRange: {x: 60, y: 90}
   bpmText: {fileID: 2731001326422090051}

@@ -653,6 +653,7 @@ GameObject:
   - component: {fileID: 684566159}
   - component: {fileID: 684566161}
   - component: {fileID: 684566160}
+  - component: {fileID: 684566164}
   m_Layer: 0
   m_Name: MinigameManagerAndCamera
   m_TagString: MainCamera
@@ -699,7 +700,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 193
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: b3d7dd957c5b7b945899652750410749, type: 2}
   m_TargetDisplay: 0
@@ -728,7 +729,7 @@ MonoBehaviour:
   maxLives: 1
   lifeDisplay: {fileID: 1211871312}
   minigamePrefabs:
-  - {fileID: 5920107928239029980, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
+  - {fileID: 2832044428388024784, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
   recoveryMinigamePrefab: {fileID: 5076087896630422355, guid: ee78766ecad82e14298602301333627d, type: 3}
   gameOverImage: {fileID: -3718763337147400751, guid: 7261c14654cf4a64c852d8442e1c437c, type: 3}
   gameOverText: {fileID: 875859632}
@@ -797,6 +798,28 @@ Transform:
   - {fileID: 736243879}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684566164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684566158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a75e5f85cfa02a4cbf2ac0b12ac9d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  targetObject: {fileID: 0}
+  followSpeed: 0.9
+  rect:
+    serializedVersion: 2
+    x: -50
+    y: -50
+    width: 100
+    height: 100
+  cameraLimits: {fileID: 0}
 --- !u!1 &736243878
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +939,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -179073399664564188, guid: f2c41c80b22134740b92b2ec87f744ba, type: 3}
+  m_Sprite: {fileID: 6850610274631382275, guid: 220a35aa81b93b94ba5113aeed07af44, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1341,8 +1364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: 208}
-  m_SizeDelta: {x: 150, y: 84.375}
+  m_AnchoredPosition: {x: -15, y: 214}
+  m_SizeDelta: {x: 16, y: 9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1247106715
 CanvasGroup:
