@@ -13,6 +13,7 @@ This month, the theme is "Self Portrait"
 
 - Beating heart by [Darsycho], licensed through the [CC0] license.
 - Blood Lust font by [Font Monger], free for personal use.
+- Nexa font by [Font Fabric], free for personal use.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Sound
@@ -41,3 +42,4 @@ This month, the theme is "Self Portrait"
 [ivanmilic]:https://freesound.org/people/ivanmilic/
 [Kastenfrosch]:https://freesound.org/people/Kastenfrosch/
 [Font Monger]:https://www.fontmonger.com
+[Font Fabric]:https://www.fontfabric.com/

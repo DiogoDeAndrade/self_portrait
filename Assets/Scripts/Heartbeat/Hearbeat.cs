@@ -49,7 +49,7 @@ public class Hearbeat : Minigame
             totalBeats++;
         }
 
-        if (totalBeats > 2)
+        if (totalBeats > 1)
         {
             DisablePrompt();
         }

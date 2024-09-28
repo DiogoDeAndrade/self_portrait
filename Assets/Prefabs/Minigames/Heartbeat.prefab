@@ -533,8 +533,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '[SPC] to live!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 440a1f025dde7024fb60dc0269ddc7e0, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 4009c0040dbdb8f4f83057f078a08156, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5884,8 +5884,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'BPM: --'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 440a1f025dde7024fb60dc0269ddc7e0, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 4009c0040dbdb8f4f83057f078a08156, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
