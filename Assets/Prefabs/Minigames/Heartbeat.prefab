@@ -5807,13 +5807,14 @@ MonoBehaviour:
   image: {fileID: -2839312463061733220, guid: 78667e53c445973479193aaf9d3cd56b, type: 3}
   mindPosition: {x: 116, y: 194}
   mindSize: {x: 100, y: 56.25}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 1}
   winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
   looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
   transitionDelay: 3
   timeLimit: 8
   timerProgress: {fileID: 3055956449759398555}
   promptText: {fileID: 7277876238256793203}
-  startDelay: 2
+  startDelay: 4
   validRange: {x: 60, y: 90}
   bpmText: {fileID: 2731001326422090051}
   heartPS: {fileID: 5980333531745061332}

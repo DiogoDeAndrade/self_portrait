@@ -14,12 +14,14 @@ This month, the theme is "Self Portrait"
 - Beating heart by [Darsycho], licensed through the [CC0] license.
 - Blood Lust font by [Font Monger], free for personal use.
 - Nexa font by [Font Fabric], free for personal use.
+- Racing pack by [Kenney], licensed through the [CC0] license.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Sound
 
 - Ascending Harp by [ivanmilic], licensed through the [CC0] license.
 - Loose sound by [Kastenfrosch], licensed through the [CC0] license.
+- Crash sound by [squareal], licensed through the [CC0] license.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Code
@@ -43,3 +45,5 @@ This month, the theme is "Self Portrait"
 [Kastenfrosch]:https://freesound.org/people/Kastenfrosch/
 [Font Monger]:https://www.fontmonger.com
 [Font Fabric]:https://www.fontfabric.com/
+[Kenney]:https://kenney.nl/
+[squareal]:https://freesound.org/people/squareal/

@@ -8,9 +8,11 @@ public class Minigame : MonoBehaviour
 {
     public enum GameState { WaitStart, Playing, Win, Loose, Terminate };
 
-    [SerializeField] public  Sprite    image;
+    [SerializeField, Header("Minigame")] 
+    public  Sprite    image;
     [SerializeField] public  Vector2   mindPosition;
     [SerializeField] public  Vector2   mindSize;
+    [SerializeField] private Color     backgroundColor = Color.black;
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip looseSound;
     [SerializeField] public  float     transitionDelay = 1.0f;
@@ -24,6 +26,7 @@ public class Minigame : MonoBehaviour
     protected float         gameTimer;
     protected CanvasGroup   timerCanvasGroup;
     protected CanvasGroup   promptCanvasGroup;
+    protected float         playTime;
 
     public bool isPlaying => (_gameState == GameState.Playing);
     public GameState gameState => _gameState;
@@ -40,6 +43,10 @@ public class Minigame : MonoBehaviour
             {
                 c.worldCamera = MinigameManager.minigameCamera;
             }
+        }
+        if (MinigameManager.minigameCamera)
+        {
+            MinigameManager.minigameCamera.backgroundColor = backgroundColor;
         }
 
         if (hasTimeLimit)
@@ -63,12 +70,17 @@ public class Minigame : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (isPlaying)
+        {
+            playTime += Time.deltaTime;
+        }
+
         if ((isPlaying) && (hasTimeLimit))
         {
             gameTimer -= Time.deltaTime;
             if (gameTimer < 0)
             {
-                Loose();    
+                TimeExpired();
             }
 
             if (timerProgress)
@@ -95,7 +107,10 @@ public class Minigame : MonoBehaviour
         }
         else
         {
-            promptCanvasGroup.alpha = Mathf.Clamp01(promptCanvasGroup.alpha - Time.deltaTime);
+            if (promptCanvasGroup)
+            {
+                promptCanvasGroup.alpha = Mathf.Clamp01(promptCanvasGroup.alpha - Time.deltaTime);
+            }
         }
     }
 
@@ -104,14 +119,14 @@ public class Minigame : MonoBehaviour
         _gameState = GameState.Playing;
     }
 
-    protected virtual void Win()
+    public virtual void Win()
     {
         _gameState = GameState.Win;
         if (winSound) SoundManager.PlaySound(winSound, 1, 1);
         
     }
 
-    protected virtual void Loose()
+    public virtual void Loose()
     {
         _gameState = GameState.Loose;
         if (looseSound) SoundManager.PlaySound(looseSound, 1, 1);
@@ -128,5 +143,10 @@ public class Minigame : MonoBehaviour
     protected void DisablePrompt()
     {
         SetPrompt("");
+    }
+
+    protected virtual void TimeExpired()
+    {
+        Loose();
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Hearbeat : Minigame
 {
-    [SerializeField] private float              startDelay = 2.0f;
+    [SerializeField, Header("Heartbeat")] private float              startDelay = 2.0f;
     [SerializeField] private Vector2Int         validRange = new Vector2Int(60, 90);
     [SerializeField] private TextMeshProUGUI    bpmText;
     [SerializeField] private ParticleSystem     heartPS;
