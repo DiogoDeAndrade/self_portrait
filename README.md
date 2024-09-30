@@ -15,6 +15,7 @@ This month, the theme is "Self Portrait"
 - Blood Lust font by [Font Monger], free for personal use.
 - Nexa font by [Font Fabric], free for personal use.
 - ZX SPectrum font by [myname5749], free for personal use.
+- X Typewriter font by [GGBotNet], licensed under the [SIL Open Font License]
 - Racing pack by [Kenney], licensed through the [CC0] license.
 - International Tennis video footage by [Modern ZX-Retro Gaming], licensed under fair use.
 - Cat sprites by [Shepardskin], licensed through the CC0 license.
@@ -30,6 +31,8 @@ This month, the theme is "Self Portrait"
 - Power chord by [mikey_eff], free for personal non-commercial use.
 - Dissoance sound by [unfa], licensed through the [CC0] license.
 - Coin jump sound by [Jerimee], licensed through the [CC0] license.
+- Typewriter key sound by [mincedbeats], licensed through the [CC0] license.
+- Typewriter ding sound by [LeonelAle71], licensed through the [CC0] license.
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Code
@@ -63,3 +66,7 @@ This month, the theme is "Self Portrait"
 [mikey_eff]:https://freesound.org/people/mikey_eff/
 [unfa]:https://freesound.org/people/unfa/
 [Jerimee]:https://freesound.org/people/Jerimee/
+[mincedbeats]:https://freesound.org/people/mincedbeats/
+[LeonelAle71]:https://freesound.org/people/LeonelAle71/
+[GGBotNet]:https://www.dafont.com/pt/ggbotnet.d8252
+[SIL Open Font License]:LICENSE_SILOFL

@@ -6469,7 +6469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3925668683998613607, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
       propertyPath: m_text
-      value: save them from ignorance!
+      value: educate them!
       objectReference: {fileID: 0}
     - target: {fileID: 8918422781334637394, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
       propertyPath: m_Name

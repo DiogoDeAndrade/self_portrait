@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using NaughtyAttributes;
 using TMPro;
+using UnityEngine.Rendering;
 
 public class Minigame : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Minigame : MonoBehaviour
     [SerializeField] public  Vector2   mindPosition;
     [SerializeField] public  Vector2   mindSize;
     [SerializeField] private Color     backgroundColor = Color.black;
+    [SerializeField] private bool      enablePostFX = true;
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip looseSound;
     [SerializeField] public  float     transitionDelay = 1.0f;
@@ -62,6 +64,12 @@ public class Minigame : MonoBehaviour
                 cameraFollow.targetObject = null;                
             }
             minigameCamera.transform.position = new Vector3(0, 0, minigameCamera.transform.position.z);
+
+            Volume volume = minigameCamera.GetComponentInChildren<Volume>();
+            if (volume)
+            {
+                volume.enabled = enablePostFX;
+            }            
         }
 
         if (hasTimeLimit)

@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6795620424672394263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8651157868065937712}
+  - component: {fileID: 7792605614808363026}
+  - component: {fileID: 712599953748286772}
+  m_Layer: 6
+  m_Name: TextOK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8651157868065937712
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6795620424672394263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5751152226378927060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -64.97599, y: 72.65703}
+  m_SizeDelta: {x: 295.3304, y: 355.8213}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7792605614808363026
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6795620424672394263}
+  m_CullTransparentMesh: 1
+--- !u!114 &712599953748286772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6795620424672394263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: At the top of the hill, the wind blew harshly, whipping the white hair
+    of the elderly man who stood there. His tired, gray eyes gazed at the horizon,
+    as if searching for something. In front of him, there was only endless desolation,
+    resembling a desert without sand. Only the occasional weed here and there marked
+    the presence of life. Farther away, the mountains of Yardalu could be seen, like
+    teeth roaring at the sky, black teeth filled with hatred for the god who had
+    trapped them there, condemned to watch the pure clouds pass overhead, mocking
+    them.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e1cf0afd2685a134d88e306d3869c351, type: 2}
+  m_sharedMaterial: {fileID: 1090012041169136570, guid: e1cf0afd2685a134d88e306d3869c351, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 13
+  m_fontSizeBase: 13
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 107.381134, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1001 &1797840308795020030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2562087913729817976, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_Name
+      value: Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_text
+      value: At the top of the hill, the wind blew harshly, whipping the white hair
+        of the elderly man who stood there. His tired, gray eyes gazed at the horizon,
+        as if searching for something. In front of him, there was only endless desolation,
+        resembling a desert without sand. Only the occasional weed here and there
+        marked the presence of life. Farther away, the mountains of Yardalu could
+        be seen, like teeth roaring at the sky, black teeth filled with hatred for
+        the god who had trapped them there, condemned to watch the pure clouds pass
+        overhead, mocking them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontSize
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_margin.y
+      value: 107.381134
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e1cf0afd2685a134d88e306d3869c351, type: 2}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.59184766
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.7103952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.7169812
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1090012041169136570, guid: e1cf0afd2685a134d88e306d3869c351, type: 2}
+    - target: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4288132535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414753972452969070, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -137
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846285050538126430, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 295.3304
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846285050538126430, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 355.8213
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846285050538126430, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -64.97599
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846285050538126430, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 72.65703
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994714573364995941, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_text
+      value: WRITE!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238720453683717592, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2289817628215393734, guid: 5eb781f4d2298c44c817cbff0a2c22a5, type: 3}
+    - target: {fileID: 8409481633227348439, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_Name
+      value: Typewriter Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -168
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2758721539506945305, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+    - {fileID: 8535944259502493860, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 5058353350011315000, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6278867007770745130, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8651157868065937712}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8409481633227348439, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4920052334126421784}
+  m_SourcePrefab: {fileID: 100100000, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+--- !u!114 &3925399087569768061 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3929887893887408499 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3349255404560272269, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &5751152226378927060 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6278867007770745130, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7802289272281303849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8409481633227348439, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4920052334126421784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7802289272281303849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56275f2341856742b1e6e111f3bc60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  mindPosition: {x: 4, y: 261}
+  mindSize: {x: 50, y: 28.125}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  enablePostFX: 0
+  winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
+  looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
+  transitionDelay: 3
+  timeLimit: 30
+  timerProgress: {fileID: 3929887893887408499}
+  promptText: {fileID: 8782302827150063003}
+  timeScale: 1
+  startDelay: 2
+  text: {fileID: 3925399087569768061}
+  textOK: {fileID: 712599953748286772}
+  keyClickSound: {fileID: 8300000, guid: 75f922ed1d6d37f4794ccfebf0964c46, type: 3}
+  dingSound: {fileID: 8300000, guid: 008856bae524f824eb48cd29672984ad, type: 3}
+  possibleTexts:
+  - At the top of the hill, the wind blew harshly, whipping the white hair of the
+    elderly man who stood there.
+  - His tired, gray eyes gazed at the horizon, as if searching for something.
+  - In front of him, there was only endless desolation, resembling a desert without
+    sand.
+  - Only the occasional weed here and there marked the presence of life.
+  - Farther away, the mountains of Yardalu could be seen.
+--- !u!114 &8782302827150063003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6994714573364995941, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

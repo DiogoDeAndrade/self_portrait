@@ -729,7 +729,7 @@ MonoBehaviour:
   maxLives: 1
   lifeDisplay: {fileID: 1211871312}
   minigamePrefabs:
-  - {fileID: 2832044428388024784, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
+  - {fileID: 4920052334126421784, guid: 2b5076be992e8f740be01aaffcd38415, type: 3}
   recoveryMinigamePrefab: {fileID: 5076087896630422355, guid: ee78766ecad82e14298602301333627d, type: 3}
   gameOverImage: {fileID: -3718763337147400751, guid: 7261c14654cf4a64c852d8442e1c437c, type: 3}
   gameOverText: {fileID: 875859632}
