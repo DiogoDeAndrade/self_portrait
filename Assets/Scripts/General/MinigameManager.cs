@@ -128,6 +128,7 @@ public class MinigameManager : MonoBehaviour
         var prefab = minigamePrefabs[r];
         
         Minigame mg = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+        mg.gameObject.SetActive(false);
 
         TransitionToMinigame(mg);
     }
@@ -137,6 +138,7 @@ public class MinigameManager : MonoBehaviour
         recovery = true;
 
         Minigame mg = Instantiate(recoveryMinigamePrefab, Vector3.zero, Quaternion.identity);
+        mg.gameObject.SetActive(false);
 
         TransitionToMinigame(mg);
     }
@@ -185,6 +187,10 @@ public class MinigameManager : MonoBehaviour
 
         oldCanvasGroup.alpha = 0.0f;
         newCanvasGroup.alpha = 1.0f;
+
+        yield return new WaitForSeconds(2);
+
+        currentMinigame.gameObject.SetActive(true);
 
         // Store the original sizes and positions of the RawImage and Photo
         Vector2 originalRawImageSize = rawImageRectTransform.sizeDelta;

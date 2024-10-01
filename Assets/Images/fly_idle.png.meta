@@ -1,58 +1,79 @@
 fileFormatVersion: 2
-guid: 8e689540716022d49a7c4fa075b189ea
+guid: 7a08a79ed07ff4a409cfcb1219017a02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2629214187833236613
-    second: main_cat_0
+      213: 7416462340606698947
+    second: fly_idle_0
   - first:
-      213: 8251309416487117896
-    second: main_cat_1
+      213: 7590881532743128269
+    second: fly_idle_1
   - first:
-      213: 8728068212851374451
-    second: main_cat_2
+      213: -7180319523510417538
+    second: fly_idle_2
   - first:
-      213: -9177586790740015848
-    second: main_cat_3
+      213: 2381573943939891073
+    second: fly_idle_3
   - first:
-      213: 537739798177846150
-    second: main_cat_4
+      213: -1745628805057631895
+    second: fly_idle_4
   - first:
-      213: 4438879925012372358
-    second: main_cat_5
+      213: 4121017814981973895
+    second: fly_idle_5
   - first:
-      213: 202118702875245231
-    second: main_cat_6
+      213: 8682914676488238012
+    second: fly_idle_6
   - first:
-      213: -3712194434967003817
-    second: main_cat_7
+      213: -5951659393457760097
+    second: fly_idle_7
   - first:
-      213: 7792865474823939929
-    second: main_cat_8
+      213: -7181002683480162795
+    second: fly_idle_8
   - first:
-      213: -4145292567142258861
-    second: main_cat_9
+      213: 6092594301481017105
+    second: fly_idle_9
   - first:
-      213: 6485702332473496319
-    second: main_cat_10
+      213: -1344280202696663575
+    second: fly_idle_10
   - first:
-      213: -5378913787511527676
-    second: main_cat_11
+      213: -555475630945738071
+    second: fly_idle_11
   - first:
-      213: 7720201763237979593
-    second: main_cat_12
+      213: 8222334638006746057
+    second: fly_idle_12
   - first:
-      213: 7504210851685962729
-    second: main_cat_13
+      213: -4944132562056097
+    second: fly_idle_13
   - first:
-      213: 1020207038404445920
-    second: main_cat_14
+      213: -5936059693324803438
+    second: fly_idle_14
   - first:
-      213: -580250790016689026
-    second: main_cat_15
+      213: -9147777381960489409
+    second: fly_idle_15
   - first:
-      213: -1428080972757964764
-    second: main_cat_16
+      213: 2435385496941645232
+    second: fly_idle_16
+  - first:
+      213: 4558775601501390592
+    second: fly_idle_17
+  - first:
+      213: 5898560362975082512
+    second: fly_idle_18
+  - first:
+      213: -2445274491543291327
+    second: fly_idle_19
+  - first:
+      213: 7059182254981814114
+    second: fly_idle_20
+  - first:
+      213: 299504119353489396
+    second: fly_idle_21
+  - first:
+      213: 1865664651733049062
+    second: fly_idle_22
+  - first:
+      213: 3741831165598786157
+    second: fly_idle_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,7 +117,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1
@@ -132,33 +153,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -174,397 +169,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: main_cat_0
+      name: fly_idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7368c750a7238bd0800000000000000
-      internalID: -2629214187833236613
+      spriteID: 3c5ace564319ce660800000000000000
+      internalID: 7416462340606698947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_1
+      name: fly_idle_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 844ec8d623a828270800000000000000
-      internalID: 8251309416487117896
+      spriteID: dc41a3b298a385960800000000000000
+      internalID: 7590881532743128269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_2
+      name: fly_idle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e770c53bf616a5c90800000000000000
+      internalID: -7180319523510417538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_idle_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 379726adbc3502970800000000000000
-      internalID: 8728068212851374451
+      spriteID: 18ffcd642ec0d0120800000000000000
+      internalID: 2381573943939891073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_3
+      name: fly_idle_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 815cf925079a2a080800000000000000
-      internalID: -9177586790740015848
+      spriteID: 969a9dcb9d746c7e0800000000000000
+      internalID: -1745628805057631895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_4
+      name: fly_idle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7879e0f5edbc03930800000000000000
+      internalID: 4121017814981973895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_idle_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6831bf35f7f667700800000000000000
-      internalID: 537739798177846150
+      spriteID: cb37b1be4e8ef7870800000000000000
+      internalID: 8682914676488238012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_5
+      name: fly_idle_7
       rect:
         serializedVersion: 2
-        x: 240
+        x: 224
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68b99fa06c11a9d30800000000000000
-      internalID: 4438879925012372358
+      spriteID: f9855dc9055776da0800000000000000
+      internalID: -5951659393457760097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_6
+      name: fly_idle_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eb9002b14f75c90800000000000000
+      internalID: -7181002683480162795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_idle_9
       rect:
         serializedVersion: 2
         x: 288
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: faa775fa3e11ec200800000000000000
-      internalID: 202118702875245231
+      spriteID: 11f585cbc3e3d8450800000000000000
+      internalID: 6092594301481017105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_7
+      name: fly_idle_10
       rect:
         serializedVersion: 2
-        x: 336
+        x: 320
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75d1c9654d2ab7cc0800000000000000
-      internalID: -3712194434967003817
+      spriteID: 9eddca72748285de0800000000000000
+      internalID: -1344280202696663575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_8
+      name: fly_idle_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2e7105bdd8a48f0800000000000000
+      internalID: -555475630945738071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_idle_12
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95769496cd1d52c60800000000000000
-      internalID: 7792865474823939929
+      spriteID: 9cb38ca1ac99b1270800000000000000
+      internalID: 8222334638006746057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_9
+      name: fly_idle_13
       rect:
         serializedVersion: 2
-        x: 432
+        x: 416
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3572b657f56f876c0800000000000000
-      internalID: -4145292567142258861
+      spriteID: f5c8aee665f6eeff0800000000000000
+      internalID: -4944132562056097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_cat_10
+      name: fly_idle_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2926cd5d821ee9da0800000000000000
+      internalID: -5936059693324803438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_idle_15
       rect:
         serializedVersion: 2
         x: 480
         y: 0
-        width: 48
+        width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff2510e98e7d10a50800000000000000
-      internalID: 6485702332473496319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_11
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 407ace1b8624a55b0800000000000000
-      internalID: -5378913787511527676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_12
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c5e42ca99aa32b60800000000000000
-      internalID: 7720201763237979593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_13
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e39f56b200542860800000000000000
-      internalID: 7504210851685962729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_14
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e6437965e0882e00800000000000000
-      internalID: 1020207038404445920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_15
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7c5a641bf882f7f0800000000000000
-      internalID: -580250790016689026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_16
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 428644cebef6e2ce0800000000000000
-      internalID: -1428080972757964764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_cat_17
-      rect:
-        serializedVersion: 2
-        x: 816
-        y: 0
-        width: 48
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fd6ddea0d0416547adb93b787346028
-      internalID: -2037686715
+      spriteID: f3664e720f09c0180800000000000000
+      internalID: -9147777381960489409
       vertices: []
       indices: 
       edges: []
@@ -573,32 +524,32 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e11e52a201b94d14da4b72aee0839df9
+    spriteID: 7e010f2852cfc854483498a8ba16d5cc
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      main_cat_0: -2629214187833236613
-      main_cat_1: 8251309416487117896
-      main_cat_10: 6485702332473496319
-      main_cat_11: -5378913787511527676
-      main_cat_12: 7720201763237979593
-      main_cat_13: 7504210851685962729
-      main_cat_14: 1020207038404445920
-      main_cat_15: -580250790016689026
-      main_cat_16: -1428080972757964764
-      main_cat_17: -2037686715
-      main_cat_2: 8728068212851374451
-      main_cat_3: -9177586790740015848
-      main_cat_4: 537739798177846150
-      main_cat_5: 4438879925012372358
-      main_cat_6: 202118702875245231
-      main_cat_7: -3712194434967003817
-      main_cat_8: 7792865474823939929
-      main_cat_9: -4145292567142258861
+      fly_idle_0: 7416462340606698947
+      fly_idle_1: 7590881532743128269
+      fly_idle_10: -1344280202696663575
+      fly_idle_11: -555475630945738071
+      fly_idle_12: 8222334638006746057
+      fly_idle_13: -4944132562056097
+      fly_idle_14: -5936059693324803438
+      fly_idle_15: -9147777381960489409
+      fly_idle_2: -7180319523510417538
+      fly_idle_3: 2381573943939891073
+      fly_idle_4: -1745628805057631895
+      fly_idle_5: 4121017814981973895
+      fly_idle_6: 8682914676488238012
+      fly_idle_7: -5951659393457760097
+      fly_idle_8: -7181002683480162795
+      fly_idle_9: 6092594301481017105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
