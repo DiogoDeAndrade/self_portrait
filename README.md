@@ -5,19 +5,31 @@ This month, the theme is "Self Portrait"
 
 ## Game
 
+![GameScreenshot](screenshots/screen01.png)
+
 The game has a series of minigames, connected to a photo. Each represents a facet of my personality and together form my self portrait.
 The fact that most facets of my personality are expressed to games shows the overarching theme of my life: games.
 Current games are:
 
 - Car Chase: When I was little I wanted to be a ambulance driver
+![GameScreenshot](screenshots/screen08.png)
 - Cat Game: I'm a cat dad (4 and counting!)
+![GameScreenshot](screenshots/screen03.png)
 - Coder: Programming is love, programming is life
+![GameScreenshot](screenshots/screen06.png)
 - Music: I can't be without music, and I used to sing and play the guitar
+![GameScreenshot](screenshots/screen07.png)
 - Teacher: I'm a teacher and I love it
+![GameScreenshot](screenshots/screen05.png)
 - Typewriter: I love writing
+![GameScreenshot](screenshots/screen04.png)
 - Lego: Well, self-explanatory!
+![GameScreenshot](screenshots/screen02.png)
 
 Finally, if you fail three times, you get a heart attack (I did in 2023), so you have to play the heart attack minigame to continue playing!
+![GameScreenshot](screenshots/screen09.png)
+
+Took me longer than I wanted making this, since it's basically 8 games in one, and even with them being very simple, it always takes a bit to make them, especially the art (yep, even when it's bad!).
 
 ## Art
 

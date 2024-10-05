@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Specialized;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MinigameManager : MonoBehaviour
@@ -430,6 +430,7 @@ public class MinigameManager : MonoBehaviour
         newCanvasGroup.alpha = 1.0f;
 
         // Back to main menu
+        SceneManager.LoadScene("Title");
 
         transitionCR = null;
     }
