@@ -57,20 +57,28 @@ public class Title : MonoBehaviour
             FadeOut(logoMusic, 0.5f);
         }
 
-        FadeOut(spellcasterLogo, 1.0f);
+        var fadeCR1 = FadeOut(spellcasterLogo, 1.0f);
 
-        FadeIn(title, 2.0f);
+        var fadeCR2 = FadeIn(title, 2.0f);       
 
         SoundManager.FadeIn(titleMusic);
 
+        yield return fadeCR1;
+        yield return fadeCR2;
+
         yield return new WaitForSecondsOrKey(4.0f);
 
-        FadeOut(title, 1.0f, 0.025f);
-        FadeIn(gameName, 1.0f);
+        fadeCR1 = FadeOut(title, 1.0f, 0.025f);
+        fadeCR2 = FadeIn(gameName, 1.0f);
+
+        yield return fadeCR1;
+        yield return fadeCR2;
 
         yield return new WaitForSecondsOrKey(1.0f);
 
-        FadeIn(options, 1.0f);
+        fadeCR = FadeIn(options, 1.0f);
+
+        yield return fadeCR;
 
         Cursor.visible = false;
         enableOptions = true;
@@ -93,8 +101,12 @@ public class Title : MonoBehaviour
             if ((canvasGroup.alpha == target) && (inc < 0.0f)) break;
             else if ((canvasGroup.alpha == target) && (inc > 0.0f)) break;
 
+            if (Input.anyKeyDown) break;
+
             yield return null;
         }
+
+        canvasGroup.alpha = target;
     }
 
     Coroutine FadeOut(AudioSource source, float duration)
