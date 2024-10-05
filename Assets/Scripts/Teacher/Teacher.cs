@@ -1,7 +1,5 @@
-using TMPro;
 using OkapiKit;
 using UnityEngine;
-using Mono.Cecil;
 
 public class Teacher : Minigame
 {

@@ -428,7 +428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3130466413086477176, guid: ee78766ecad82e14298602301333627d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987795234986552282, guid: ee78766ecad82e14298602301333627d, type: 3}
+      propertyPath: m_text
+      value: <sprite name="keyboard" tint=1>
       objectReference: {fileID: 0}
     - target: {fileID: 4202578466899854602, guid: ee78766ecad82e14298602301333627d, type: 3}
       propertyPath: m_Color.b
@@ -457,6 +461,10 @@ PrefabInstance:
     - target: {fileID: 7456801836628155783, guid: ee78766ecad82e14298602301333627d, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942103509104795628, guid: ee78766ecad82e14298602301333627d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 51.000004
       objectReference: {fileID: 0}
     - target: {fileID: 8117308169167198401, guid: ee78766ecad82e14298602301333627d, type: 3}
       propertyPath: m_Name
@@ -571,6 +579,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3694496078322215628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3987795234986552282, guid: ee78766ecad82e14298602301333627d, type: 3}
+  m_PrefabInstance: {fileID: 293299368329888022}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5182661369967961799 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4899495514261825489, guid: ee78766ecad82e14298602301333627d, type: 3}
@@ -608,12 +627,17 @@ MonoBehaviour:
   mindPosition: {x: 4, y: 261}
   mindSize: {x: 50, y: 28.125}
   backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  enablePostFX: 1
+  enableCursor: 0
   winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
   looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
   transitionDelay: 3
   timeLimit: 15
   timerProgress: {fileID: 3349255404560272269}
   promptText: {fileID: 6994714573364995941}
+  helperText: {fileID: 3694496078322215628}
+  music: {fileID: 8300000, guid: fac16948eb0265444b8864f090eda5ba, type: 3}
+  timeScale: 1
   startDelay: 2
   code: {fileID: 3353747479813561475}
   keyClickSound: {fileID: 8300000, guid: f8e7fe62dc1b9724fb63ef7e62e7d2b2, type: 3}

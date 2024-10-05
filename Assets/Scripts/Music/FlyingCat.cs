@@ -48,8 +48,8 @@ public class FlyingCat : MonoBehaviour
                 boostFX.Play();
                 fuel -= fuelDrain;
                 fuelDisplay.localScale = new Vector3(fuel / 100.0f, 1.0f, 1.0f);
-                if (boostSound) SoundManager.PlaySound(boostSound, 0.5f, 1);
-                else if (moreFuelSound) SoundManager.PlaySound(moreFuelSound, 0.5f, 2);
+                if (boostSound) SoundManager.PlaySound(boostSound, 0.25f, 1);
+                else if (moreFuelSound) SoundManager.PlaySound(moreFuelSound, 0.25f, 2);
             }
         }
 
@@ -72,11 +72,11 @@ public class FlyingCat : MonoBehaviour
             if (note.ammount > 0)
             {
                 // Power chord
-                if (moreFuelSound) SoundManager.PlaySound(moreFuelSound, 0.5f, 1);
+                if (moreFuelSound) SoundManager.PlaySound(moreFuelSound, 0.25f, 1);
             }
             else
             {
-                if (lessFuelSound) SoundManager.PlaySound(lessFuelSound, 0.5f, 1);
+                if (lessFuelSound) SoundManager.PlaySound(lessFuelSound, 0.25f, 1);
             }
             fuel = Mathf.Clamp(fuel + note.ammount, 0, 100);
 

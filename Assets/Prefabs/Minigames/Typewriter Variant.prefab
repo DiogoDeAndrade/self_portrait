@@ -204,7 +204,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3414753972452969070, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -137
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3694496078322215628, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_text
+      value: <sprite name="keyboard" tint=1>
       objectReference: {fileID: 0}
     - target: {fileID: 5846285050538126430, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -226,13 +230,17 @@ PrefabInstance:
       propertyPath: m_text
       value: WRITE!
       objectReference: {fileID: 0}
+    - target: {fileID: 7649934851116982010, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -34.999985
+      objectReference: {fileID: 0}
     - target: {fileID: 8238720453683717592, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2289817628215393734, guid: 5eb781f4d2298c44c817cbff0a2c22a5, type: 3}
     - target: {fileID: 8409481633227348439, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
       propertyPath: m_Name
-      value: Typewriter Variant Variant
+      value: Typewriter Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8530723514443141669, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -288,6 +296,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4920052334126421784}
   m_SourcePrefab: {fileID: 100100000, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+--- !u!114 &3149787073412806706 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3694496078322215628, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  m_PrefabInstance: {fileID: 1797840308795020030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3925399087569768061 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3353747479813561475, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
@@ -332,17 +351,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f56275f2341856742b1e6e111f3bc60e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  mindPosition: {x: 4, y: 261}
-  mindSize: {x: 50, y: 28.125}
+  image: {fileID: 4920903437296213624, guid: 6844ba3f2fd2500428d6acb99610b270, type: 3}
+  mindPosition: {x: 0, y: 333}
+  mindSize: {x: 72, y: 41}
   backgroundColor: {r: 0, g: 0, b: 0, a: 1}
   enablePostFX: 0
+  enableCursor: 0
   winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
   looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
   transitionDelay: 3
   timeLimit: 30
   timerProgress: {fileID: 3929887893887408499}
   promptText: {fileID: 8782302827150063003}
+  helperText: {fileID: 3149787073412806706}
+  music: {fileID: 8300000, guid: fac16948eb0265444b8864f090eda5ba, type: 3}
   timeScale: 1
   startDelay: 2
   text: {fileID: 3925399087569768061}

@@ -5,9 +5,19 @@ This month, the theme is "Self Portrait"
 
 ## Game
 
+The game has a series of minigames, connected to a photo. Each represents a facet of my personality and together form my self portrait.
+The fact that most facets of my personality are expressed to games shows the overarching theme of my life: games.
+Current games are:
 
-## Gameplay 
+- Car Chase: When I was little I wanted to be a ambulance driver
+- Cat Game: I'm a cat dad (4 and counting!)
+- Coder: Programming is love, programming is life
+- Music: I can't be without music, and I used to sing and play the guitar
+- Teacher: I'm a teacher and I love it
+- Typewriter: I love writing
+- Lego: Well, self-explanatory!
 
+Finally, if you fail three times, you get a heart attack (I did in 2023), so you have to play the heart attack minigame to continue playing!
 
 ## Art
 
@@ -17,6 +27,7 @@ This month, the theme is "Self Portrait"
 - ZX SPectrum font by [myname5749], free for personal use.
 - X Typewriter font by [GGBotNet], licensed under the [SIL Open Font License]
 - Racing pack by [Kenney], licensed through the [CC0] license.
+- Input prompts pack by [Kenney], licensed through the [CC0] license.
 - International Tennis video footage by [Modern ZX-Retro Gaming], licensed under fair use.
 - Cat sprites by [Shepardskin], licensed through the [CC0] license.
 - Fly sprites by [Croomfolk], licensed through the [OGA-BY 3.0] license.
@@ -35,6 +46,8 @@ This month, the theme is "Self Portrait"
 - Typewriter key sound by [khwez], licensed through the [CC0] license.
 - Typewriter ding sound by [LeonelAle71], licensed through the [CC0] license.
 - Eat sound by [vibritherabjit123], licensed through the [CC0] license.
+- Lego sound by [rioforce], licensed through the [CC0] license.
+- Music is AI generated with [Soundful]
 - Everything else done by [Diogo de Andrade], licensed through the [CC0] license.
 
 ## Code
@@ -75,3 +88,5 @@ This month, the theme is "Self Portrait"
 [OGA-BY 3.0]:LICENSE_OGA3
 [Croomfolk]:https://opengameart.org/users/croomfolk
 [vibritherabjit123]:https://freesound.org/people/vibritherabjit123/
+[rioforce]:https://freesound.org/people/rioforce/
+[Soundful]:https://soundful.com/

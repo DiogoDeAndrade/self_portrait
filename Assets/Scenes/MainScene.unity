@@ -198,7 +198,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!224 &22360481
 RectTransform:
@@ -726,9 +726,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minigameCamera: {fileID: 0}
   autoStart: 1
-  maxLives: 1
+  maxLives: 3
   lifeDisplay: {fileID: 1211871312}
+  playMode: 1
   minigamePrefabs:
+  - {fileID: 1924206483068462987, guid: 6e5c18ec4bfc1f94094a58ab97e146d8, type: 3}
+  - {fileID: 7356470443303820402, guid: e7f86ddd9c8b981418f7e2fa52ca41fc, type: 3}
+  - {fileID: 5920107928239029980, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
+  - {fileID: 8535944259502493860, guid: e32e8fcd81a9a0c4b80e1f26b71ed6d9, type: 3}
+  - {fileID: 2832044428388024784, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
+  - {fileID: 4920052334126421784, guid: 2b5076be992e8f740be01aaffcd38415, type: 3}
   - {fileID: 2318548615069516021, guid: a92d5e0008336c249aa8ab3d3c951e00, type: 3}
   recoveryMinigamePrefab: {fileID: 5076087896630422355, guid: ee78766ecad82e14298602301333627d, type: 3}
   gameOverImage: {fileID: -3718763337147400751, guid: 7261c14654cf4a64c852d8442e1c437c, type: 3}
@@ -939,7 +946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4923075467611941535, guid: f4d53772c34c70f41b4d6684965ba18b, type: 3}
+  m_Sprite: {fileID: 4920903437296213624, guid: 6844ba3f2fd2500428d6acb99610b270, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1062,6 +1069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultMixerOutput: {fileID: 976619044416641019, guid: 9fe71b0991a173f4c85c1f797f6200a9, type: 2}
+  musicMixerOutput: {fileID: 0}
 --- !u!4 &900070221
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,8 +1372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: 319}
-  m_SizeDelta: {x: 48, y: 27}
+  m_AnchoredPosition: {x: -1, y: 333}
+  m_SizeDelta: {x: 72, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1247106715
 CanvasGroup:

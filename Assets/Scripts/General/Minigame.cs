@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using NaughtyAttributes;
 using TMPro;
 using UnityEngine.Rendering;
+using System.Runtime.InteropServices;
 
 public class Minigame : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Minigame : MonoBehaviour
     [SerializeField] public  Vector2   mindSize;
     [SerializeField] private Color     backgroundColor = Color.black;
     [SerializeField] private bool      enablePostFX = true;
+    [SerializeField] private bool      enableCursor = false;
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip looseSound;
     [SerializeField] public  float     transitionDelay = 1.0f;
@@ -22,6 +24,10 @@ public class Minigame : MonoBehaviour
     private Image timerProgress;
     [SerializeField] 
     public TextMeshProUGUI promptText;
+    [SerializeField]
+    public TextMeshProUGUI helperText;
+    [SerializeField]
+    public AudioClip music;
     [SerializeField]
     public float timeScale = 1.0f;
 
@@ -40,6 +46,20 @@ public class Minigame : MonoBehaviour
 
     protected virtual void Start()
     {
+        Cursor.visible = enableCursor;
+#if UNITY_STANDALONE_WIN
+        Cursor.lockState = CursorLockMode.Confined;
+#endif
+
+        if (music)
+        {
+            SoundManager.FadeIn(music);
+        }
+        else
+        {
+            SoundManager.FadeIn(null);
+        }
+
         var canvas = GetComponentsInChildren<Canvas>();
         minigameCamera = MinigameManager.minigameCamera;
         if (minigameCamera == null)
@@ -135,7 +155,34 @@ public class Minigame : MonoBehaviour
                 promptCanvasGroup.alpha = Mathf.Clamp01(promptCanvasGroup.alpha - Time.deltaTime);
             }
         }
+
+        if (enableCursor)
+        {
+            POINT cursorPos;
+            if (GetCursorPos(out cursorPos))
+            {
+                cursorPos.x = (int)(cursorPos.x + Input.GetAxis("Horizontal") * 1500.0f * Time.deltaTime);
+                cursorPos.y = (int)(cursorPos.y - Input.GetAxis("Vertical") * 1500.0f * Time.deltaTime);
+                SetCursorPos((int)cursorPos.x, (int)cursorPos.y);
+            }
+        }
     }
+
+#if UNITY_STANDALONE_WIN
+    [StructLayout(LayoutKind.Sequential)]
+    public struct POINT
+    {
+        public int x;
+        public int y;
+    }
+
+    // Import GetCursorPos from user32.dll
+    [DllImport("user32.dll")]
+    public static extern bool GetCursorPos(out POINT lpPoint);
+    [DllImport("user32.dll")]
+    public static extern bool SetCursorPos(int x, int y);
+#endif
+
 
     protected void StartPlaying()
     {
@@ -160,6 +207,10 @@ public class Minigame : MonoBehaviour
         if (promptText)
         {
             promptText.text = prompt;
+        }
+        if (helperText)
+        { 
+            helperText.text = "";
         }
     }
 

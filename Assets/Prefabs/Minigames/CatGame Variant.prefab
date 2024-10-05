@@ -2680,6 +2680,13 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6145499a78901f14ca067288e47b3171, type: 2}
+    - target: {fileID: 4410846148652475454, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
+      propertyPath: m_text
+      value: '<sprite name="left" tint=1><sprite name="right" tint=1><sprite name="space"
+        tint=1>
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5659599246501291865, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -7671,6 +7678,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eatSound: {fileID: 8300000, guid: f70b1e0632c0d9d4ca9f2e8dda40d66e, type: 3}
   nFlies: 0
+--- !u!114 &2723402736998765165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4410846148652475454, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
+  m_PrefabInstance: {fileID: 1800597006406121043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4104176517842744108 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2308648566273590655, guid: e81998f6c8b52e54e86833ffc897b6f5, type: 3}
@@ -7735,12 +7753,15 @@ MonoBehaviour:
   mindSize: {x: 48, y: 27}
   backgroundColor: {r: 0, g: 0, b: 0, a: 1}
   enablePostFX: 1
+  enableCursor: 0
   winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
   looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
   transitionDelay: 1
   timeLimit: 20
   timerProgress: {fileID: 4104176517842744108}
   promptText: {fileID: 8618819997297303492}
+  helperText: {fileID: 2723402736998765165}
+  music: {fileID: 8300000, guid: fac16948eb0265444b8864f090eda5ba, type: 3}
   timeScale: 1
   startDelay: 2
   catPlayerMovement: {fileID: 5612211928380896125}

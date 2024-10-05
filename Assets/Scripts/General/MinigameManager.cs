@@ -5,10 +5,13 @@ using UnityEngine.UI;
 
 public class MinigameManager : MonoBehaviour
 {
+    public enum PlayMode { Random, Sequential };
+
     [SerializeField] private Camera         _minigameCamera;
     [SerializeField] private bool           autoStart;
     [SerializeField] private int            maxLives = 3;
     [SerializeField] private LifeDisplay    lifeDisplay;
+    [SerializeField] private PlayMode       playMode = PlayMode.Random;
     [SerializeField] private Minigame[]     minigamePrefabs;
     [SerializeField] private Minigame       recoveryMinigamePrefab;
     [SerializeField] private Sprite         gameOverImage;
@@ -25,6 +28,7 @@ public class MinigameManager : MonoBehaviour
     private int           lives;
     private bool          recovery;
     private Coroutine     transitionCR;
+    private int           playIndex = 0;
 
     public static bool isPlaying
     {
@@ -86,7 +90,7 @@ public class MinigameManager : MonoBehaviour
             var minigame = FindAnyObjectByType<Minigame>();
             if (minigame == null)
             {
-                SelectRandomMinigame();
+                SelectNextGame();
             }
             else
             {
@@ -120,13 +124,24 @@ public class MinigameManager : MonoBehaviour
         }
     }
 
-    public void SelectRandomMinigame()
+    public void SelectNextGame()
     {
         recovery = false;
 
-        int r = Random.Range(0, minigamePrefabs.Length);
-        var prefab = minigamePrefabs[r];
-        
+        Minigame prefab = null;
+
+        if (playMode == PlayMode.Random)
+        {
+            int r = Random.Range(0, minigamePrefabs.Length);
+            prefab = minigamePrefabs[r];
+        }
+        else if (playMode == PlayMode.Sequential)
+        {
+            prefab = minigamePrefabs[playIndex];
+
+            playIndex = (playIndex + 1) % minigamePrefabs.Length;
+        }
+
         Minigame mg = Instantiate(prefab, Vector3.zero, Quaternion.identity);
         mg.gameObject.SetActive(false);
 
@@ -354,7 +369,7 @@ public class MinigameManager : MonoBehaviour
             }
             else
             {
-                SelectRandomMinigame();
+                SelectNextGame();
             }
         }
         else if (gameState == Minigame.GameState.Win)
@@ -364,7 +379,7 @@ public class MinigameManager : MonoBehaviour
                 lives = 1;
                 lifeDisplay.lives = lives;
             }
-            SelectRandomMinigame();
+            SelectNextGame();
         }
     }
 

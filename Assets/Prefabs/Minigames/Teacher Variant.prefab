@@ -6471,6 +6471,15 @@ PrefabInstance:
       propertyPath: m_text
       value: educate them!
       objectReference: {fileID: 0}
+    - target: {fileID: 7218581486840045006, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
+      propertyPath: m_text
+      value: <sprite name="left" tint=1><sprite name="right" tint=1><sprite name="space"
+        tint=1>
+      objectReference: {fileID: 0}
+    - target: {fileID: 7218581486840045006, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 8918422781334637394, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
       propertyPath: m_Name
       value: BooksFX
@@ -6541,6 +6550,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd20ac3bb1362540a780360d8f64836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4410846148652475454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7218581486840045006, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
+  m_PrefabInstance: {fileID: 6420994721910061552}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &6005063556757715811 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 742445033821864595, guid: dc0432759bb84964c96d667a45f82a66, type: 3}
@@ -6583,12 +6603,16 @@ MonoBehaviour:
   mindPosition: {x: -15, y: 214}
   mindSize: {x: 16, y: 9}
   backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  enablePostFX: 1
+  enableCursor: 0
   winSound: {fileID: 8300000, guid: efabee31878dd064dacd4b7d07d75945, type: 3}
   looseSound: {fileID: 8300000, guid: e1cdfdc5d42679c4fa9e9477a4d1732d, type: 3}
   transitionDelay: 1
   timeLimit: 25
   timerProgress: {fileID: 2308648566273590655}
   promptText: {fileID: 8025751469574039959}
+  helperText: {fileID: 4410846148652475454}
+  music: {fileID: 8300000, guid: fac16948eb0265444b8864f090eda5ba, type: 3}
   timeScale: 1
   startDelay: 2
   teacherPlayer: {fileID: 8674103086423249788}
