@@ -1,7 +1,7 @@
-# DIOGO
+# GAMES OF SELF
 
 Developed for the Game Creator's Club at Lusofona University.
-This month, the theme is "Self Portrait". And yes, the name of the game is Diogo.
+This month, the theme is "Self Portrait". 
 
 ## Game
 
